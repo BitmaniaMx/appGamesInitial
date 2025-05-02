@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGamesAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B49A7C62DC57DDF007E8B07 /* appGamesAlamofireAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGamesAlamofireAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7B49A7D82DC57DE0007E8B07 /* Exceptions for "appGames" folder in "appGamesAlamofire" target */ = {
+		7B49A7D82DC57DE0007E8B07 /* Exceptions for "AppGamesAlamofire" folder in "appGamesAlamofireAlamofire" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */;
+			target = 7B49A7C52DC57DDF007E8B07 /* appGamesAlamofireAlamofire */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7B49A7C82DC57DDF007E8B07 /* appGames */ = {
+		7B49A7C82DC57DDF007E8B07 /* AppGamesAlamofire */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7B49A7D82DC57DE0007E8B07 /* Exceptions for "appGames" folder in "appGamesAlamofire" target */,
+				7B49A7D82DC57DE0007E8B07 /* Exceptions for "AppGamesAlamofire" folder in "appGamesAlamofireAlamofire" target */,
 			);
-			path = appGames;
+			path = AppGamesAlamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		7B49A7BD2DC57DDF007E8B07 = {
 			isa = PBXGroup;
 			children = (
-				7B49A7C82DC57DDF007E8B07 /* appGames */,
+				7B49A7C82DC57DDF007E8B07 /* AppGamesAlamofire */,
 				7B49A7C72DC57DDF007E8B07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		7B49A7C72DC57DDF007E8B07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */,
+				7B49A7C62DC57DDF007E8B07 /* appGamesAlamofireAlamofire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */ = {
+		7B49A7C52DC57DDF007E8B07 /* appGamesAlamofireAlamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofire" */;
+			buildConfigurationList = 7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofireAlamofire" */;
 			buildPhases = (
 				7B49A7C22DC57DDF007E8B07 /* Sources */,
 				7B49A7C32DC57DDF007E8B07 /* Frameworks */,
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7B49A7C82DC57DDF007E8B07 /* appGames */,
+				7B49A7C82DC57DDF007E8B07 /* AppGamesAlamofire */,
 			);
-			name = appGamesAlamofire;
+			name = appGamesAlamofireAlamofire;
 			packageProductDependencies = (
 			);
 			productName = appGames;
-			productReference = 7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */;
+			productReference = 7B49A7C62DC57DDF007E8B07 /* appGamesAlamofireAlamofire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B49A7C12DC57DDF007E8B07 /* Build configuration list for PBXProject "appGames" */;
+			buildConfigurationList = 7B49A7C12DC57DDF007E8B07 /* Build configuration list for PBXProject "appGamesAlamofire" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */,
+				7B49A7C52DC57DDF007E8B07 /* appGamesAlamofireAlamofire */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +150,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appGames/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Games;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -185,6 +186,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appGames/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Games;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B49A7C12DC57DDF007E8B07 /* Build configuration list for PBXProject "appGames" */ = {
+		7B49A7C12DC57DDF007E8B07 /* Build configuration list for PBXProject "appGamesAlamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B49A7DC2DC57DE0007E8B07 /* Debug */,
@@ -339,7 +341,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofire" */ = {
+		7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofireAlamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B49A7DA2DC57DE0007E8B07 /* Debug */,
