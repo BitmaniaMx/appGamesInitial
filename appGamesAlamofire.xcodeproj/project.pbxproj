@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		7B49A7C62DC57DDF007E8B07 /* appGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGamesAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7B49A7D82DC57DE0007E8B07 /* Exceptions for "appGames" folder in "appGames" target */ = {
+		7B49A7D82DC57DE0007E8B07 /* Exceptions for "appGames" folder in "appGamesAlamofire" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7B49A7C52DC57DDF007E8B07 /* appGames */;
+			target = 7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -24,7 +24,7 @@
 		7B49A7C82DC57DDF007E8B07 /* appGames */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7B49A7D82DC57DE0007E8B07 /* Exceptions for "appGames" folder in "appGames" target */,
+				7B49A7D82DC57DE0007E8B07 /* Exceptions for "appGames" folder in "appGamesAlamofire" target */,
 			);
 			path = appGames;
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		7B49A7C72DC57DDF007E8B07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B49A7C62DC57DDF007E8B07 /* appGames.app */,
+				7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B49A7C52DC57DDF007E8B07 /* appGames */ = {
+		7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGames" */;
+			buildConfigurationList = 7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofire" */;
 			buildPhases = (
 				7B49A7C22DC57DDF007E8B07 /* Sources */,
 				7B49A7C32DC57DDF007E8B07 /* Frameworks */,
@@ -76,11 +76,11 @@
 			fileSystemSynchronizedGroups = (
 				7B49A7C82DC57DDF007E8B07 /* appGames */,
 			);
-			name = appGames;
+			name = appGamesAlamofire;
 			packageProductDependencies = (
 			);
 			productName = appGames;
-			productReference = 7B49A7C62DC57DDF007E8B07 /* appGames.app */;
+			productReference = 7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B49A7C52DC57DDF007E8B07 /* appGames */,
+				7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */,
 			);
 		};
 /* End PBXProject section */
@@ -143,11 +143,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P2R43RKRE4;
+				DEVELOPMENT_TEAM = R6SNK5B5Q8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appGames/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Games;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -158,8 +160,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mx.bitmania.appGames;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.bitmania.appGamesAlamofire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -171,11 +178,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P2R43RKRE4;
+				DEVELOPMENT_TEAM = R6SNK5B5Q8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = appGames/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Games;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -186,8 +195,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = mx.bitmania.appGames;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.bitmania.appGamesAlamofire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGames" */ = {
+		7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B49A7DA2DC57DE0007E8B07 /* Debug */,
