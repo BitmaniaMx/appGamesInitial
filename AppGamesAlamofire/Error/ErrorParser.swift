@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//import Alamofire
+import Alamofire
 
 struct ErrorParser {
     static func parse(_ error: Error) -> APIError {

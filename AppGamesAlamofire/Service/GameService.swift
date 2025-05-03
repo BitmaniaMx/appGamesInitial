@@ -5,7 +5,7 @@
 //  Created by Rafael Gonzalez on 01/05/25.
 //
 
-//import Alamofire
+import Alamofire
 
 class GameService {
     static let shared = GameService()
@@ -23,6 +23,8 @@ class GameService {
 
     func fetchGames(completion: @escaping (Result<[Game], APIError>) -> Void) {
         let url = Endpoint.getGames(keyloder.getQueryString()).url
+        print(keyloder.getQueryString())
+
 
         AF.request(url, method: .get)
             //        { request in

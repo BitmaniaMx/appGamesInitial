@@ -12,7 +12,7 @@ class KeyLoader {
     
     //    init method load key from file
         private init() {
-            if let file = Bundle.main.url(forResource: "apikey", withExtension: "keys"){
+            if let file = Bundle.main.url(forResource: "api", withExtension: "keys"){
                 do{
                     let data = try Data(contentsOf: file)
                     let myKey = try JSONDecoder().decode(Key.self, from: data)

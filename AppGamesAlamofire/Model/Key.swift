@@ -8,7 +8,6 @@
 struct Key : Codable {
     var apiKey: String
     
-    
     init(apiKey: String) {
         self.apiKey = apiKey
     }

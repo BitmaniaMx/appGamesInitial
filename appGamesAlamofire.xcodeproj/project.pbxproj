@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7B49A8562DC5AAE6007E8B07 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7B49A8552DC5AAE6007E8B07 /* Kingfisher */; };
+		7B49A8592DC5AB8F007E8B07 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7B49A8582DC5AB8F007E8B07 /* Alamofire */; };
+		7B49A8632DC5B695007E8B07 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7B49A8622DC5B695007E8B07 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		7B49A7C62DC57DDF007E8B07 /* appGamesAlamofireAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGamesAlamofireAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appGamesAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B49A8622DC5B695007E8B07 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7B49A7D82DC57DE0007E8B07 /* Exceptions for "AppGamesAlamofire" folder in "appGamesAlamofireAlamofire" target */ = {
+		7B49A7D82DC57DE0007E8B07 /* Exceptions for "AppGamesAlamofire" folder in "appGamesAlamofire" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 7B49A7C52DC57DDF007E8B07 /* appGamesAlamofireAlamofire */;
+			target = 7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -24,7 +31,7 @@
 		7B49A7C82DC57DDF007E8B07 /* AppGamesAlamofire */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7B49A7D82DC57DE0007E8B07 /* Exceptions for "AppGamesAlamofire" folder in "appGamesAlamofireAlamofire" target */,
+				7B49A7D82DC57DE0007E8B07 /* Exceptions for "AppGamesAlamofire" folder in "appGamesAlamofire" target */,
 			);
 			path = AppGamesAlamofire;
 			sourceTree = "<group>";
@@ -36,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B49A8562DC5AAE6007E8B07 /* Kingfisher in Frameworks */,
+				7B49A8592DC5AB8F007E8B07 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,7 @@
 		7B49A7BD2DC57DDF007E8B07 = {
 			isa = PBXGroup;
 			children = (
+				7B49A8622DC5B695007E8B07 /* .gitignore */,
 				7B49A7C82DC57DDF007E8B07 /* AppGamesAlamofire */,
 				7B49A7C72DC57DDF007E8B07 /* Products */,
 			);
@@ -53,7 +63,7 @@
 		7B49A7C72DC57DDF007E8B07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B49A7C62DC57DDF007E8B07 /* appGamesAlamofireAlamofire.app */,
+				7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +71,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B49A7C52DC57DDF007E8B07 /* appGamesAlamofireAlamofire */ = {
+		7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofireAlamofire" */;
+			buildConfigurationList = 7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofire" */;
 			buildPhases = (
 				7B49A7C22DC57DDF007E8B07 /* Sources */,
 				7B49A7C32DC57DDF007E8B07 /* Frameworks */,
@@ -76,11 +86,13 @@
 			fileSystemSynchronizedGroups = (
 				7B49A7C82DC57DDF007E8B07 /* AppGamesAlamofire */,
 			);
-			name = appGamesAlamofireAlamofire;
+			name = appGamesAlamofire;
 			packageProductDependencies = (
+				7B49A8552DC5AAE6007E8B07 /* Kingfisher */,
+				7B49A8582DC5AB8F007E8B07 /* Alamofire */,
 			);
 			productName = appGames;
-			productReference = 7B49A7C62DC57DDF007E8B07 /* appGamesAlamofireAlamofire.app */;
+			productReference = 7B49A7C62DC57DDF007E8B07 /* appGamesAlamofire.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,12 +119,16 @@
 			);
 			mainGroup = 7B49A7BD2DC57DDF007E8B07;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7B49A8542DC5AAE6007E8B07 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				7B49A8572DC5AB8F007E8B07 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7B49A7C72DC57DDF007E8B07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B49A7C52DC57DDF007E8B07 /* appGamesAlamofireAlamofire */,
+				7B49A7C52DC57DDF007E8B07 /* appGamesAlamofire */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B49A8632DC5B695007E8B07 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +165,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R6SNK5B5Q8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = appGames/Info.plist;
+				INFOPLIST_FILE = AppGamesAlamofire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Games;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -184,7 +201,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R6SNK5B5Q8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = appGames/Info.plist;
+				INFOPLIST_FILE = AppGamesAlamofire/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Games;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -341,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofireAlamofire" */ = {
+		7B49A7D92DC57DE0007E8B07 /* Build configuration list for PBXNativeTarget "appGamesAlamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B49A7DA2DC57DE0007E8B07 /* Debug */,
@@ -351,6 +368,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B49A8542DC5AAE6007E8B07 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		7B49A8572DC5AB8F007E8B07 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B49A8552DC5AAE6007E8B07 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B49A8542DC5AAE6007E8B07 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		7B49A8582DC5AB8F007E8B07 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B49A8572DC5AB8F007E8B07 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B49A7BE2DC57DDF007E8B07 /* Project object */;
 }
